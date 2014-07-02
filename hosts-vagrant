@@ -1,0 +1,5 @@
+[mesos_masters]
+192.168.33.12 zoo_id=1
+
+[mesos_slaves]
+192.168.33.12

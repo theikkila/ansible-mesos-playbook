@@ -10,7 +10,7 @@
     - { role: ansible-docker, tags:['os-tools'] }
     - { role: ansible-java8, tags:['runtimes', 'java']}
     - { role: info.haproxy }
-    - { role: ansible-mesos, mesos_cluster_name: "mlh_mesos", mesos_options: "--log_dir=$LOGS", tags: ['mesos', 'platforms'] }
+    - { role: ansible-mesos, mesos_cluster_name: "mlh_mesos", mesos_install_mode: "master", mesos_options: "--log_dir=$LOGS", tags: ['mesos', 'platforms'] }
     - { role: ansible-marathon, tags:['mesos-tools'] }
 
 - hosts: [mesos_slaves]
