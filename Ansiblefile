@@ -8,4 +8,4 @@ role "ansible-java8",
 role "ansible-marathon",
   github: "mhamrah/ansible-marathon"
 role "ansible-mesos",
-  github: "mhamrah/ansible-mesos"
+  github: "theikkila/ansible-mesos"
